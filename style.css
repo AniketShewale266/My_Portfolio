@@ -1,0 +1,145 @@
+/* Custom CSS styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* Navbar */
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar a.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Intro Section */
+/* Intro Section Styles */
+
+/* Center align text and image vertically */
+/* Intro Section Styles */
+
+/* Center align content horizontally and vertically */
+#intro {
+  background-color: #202124;
+  color: white;
+  /* background-color: #f8f9fa; Light background color */
+  height: 80vh; /* Set height to 100% of the viewport height */
+  display: flex; /* Enable Flexbox layout */
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  /* border: 2px solid green; */
+}
+
+#intro .container {
+  max-width: 1200px; /* Max width of the container */
+}
+
+#intro h1,
+#intro p {
+  margin-bottom: 20px; /* Spacing below the name and description */
+}
+
+#intro img {
+  max-width: 250px; /* Set maximum width for the image */
+  display: block; /* Display the image as a block element */
+  margin: 0 auto; /* Center align the image horizontally */
+}
+
+/* Button Styles */
+/* Download Resume Button Styles */
+
+.btn-download {
+  background-color: #f8ca31; /* Green button color */
+  border-color: #f8ca31; /* Green border color */
+  color: #030303; /* White text color */
+  padding: 10px 20px; /* Padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove default underline */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-download:hover {
+  background-color: #FEC810; /* Darker green color on hover */
+}
+
+/* Icon and Text Styles for Download Resume Button */
+.btn-download i {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.btn-download span {
+  font-weight: bold; /* Bold text */
+}
+
+
+
+/* Projects Section */
+#projects {
+  background-color: #202124;
+  color: white;
+  /* border: 2px solid green; */
+}
+/* Project Card Styles */
+
+.card {
+  transition: transform 0.3s ease; /* Smooth transition for card hover effect */
+  background-color: #f8ca31; /* Green button color */
+  color: #030303;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move card slightly upwards on hover */
+  background-color: #FEC810;
+}
+
+.card-title {
+  font-size: 1.25rem; /* Larger font size for project titles */
+  margin-bottom: 15px; /* Spacing below project titles */
+}
+
+.card-text {
+  margin-bottom: 20px; /* Spacing below project descriptions */
+}
+
+/* Contact Section Styles */
+
+#contact {
+  background-color: #202124;
+  color: white;
+}
+
+#contact h2 {
+  margin-bottom: 30px; /* Spacing below the contact title */
+}
+
+.contact-info h4 {
+  margin-bottom: 20px; /* Spacing below the contact information title */
+}
+
+.social-links a {
+  font-size: 24px; /* Social media icon size */
+  margin-right: 15px; /* Spacing between social media icons */
+  color: #007bff; /* Default color for social media icons */
+}
+
+.social-links a:hover {
+  color: #0056b3; /* Darker color on hover for social media icons */
+}
+
+.form-control {
+  margin-bottom: 20px; /* Spacing between form fields */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff; /* Primary button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  border-color: #0056b3; /* Darker border color on hover */
+}
+
